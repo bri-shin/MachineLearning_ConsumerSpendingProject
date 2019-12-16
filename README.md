@@ -1,4 +1,4 @@
-# MachineLearning_ConsumerSpendingProject
+# Machine Learning: Consumer Spending Analysis
 
 <i>Authors:</i>
 Berwin Gan,
