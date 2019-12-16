@@ -1,9 +1,9 @@
 # MachineLearning_ConsumerSpendingProject
 
 <i>Authors:</i>
-Berwin Gan
-Brian Shin
-Maria Jaramillo
+Berwin Gan,
+Brian Shin,
+Maria Jaramillo,
 Tofunmi Kupoluyi
 
 Data Source: www.bls.gov
