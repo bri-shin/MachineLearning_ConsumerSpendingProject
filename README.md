@@ -15,10 +15,12 @@ One-quarter of American workers make less than $10 per hour. That creates an inc
 ### Model - Description of Methodology
 We decided to analyze the data with both supervised and unsu- pervised learning. Generally, our aim was to observe what income classes (if any) our data could be separated into i.e. if it was possible to get a good classifier for our data. Particularly in the case of supervised learning we were also curious to see if a linear svm could be fitted to the data so the corresponding weights of features could be analyzed.
 
-</b>Supervised Learning</b>
+<b>Supervised Learning</b>
+
 For supervised learning, we experimented with both binary and multi-class SVM using linear, rbf and polynomial kernels.
 
-</b>Unsupervised Learning</b> 
+<b>Unsupervised Learning</b> 
+
 For unsupervised learning, we experi- mented with k-means clustering over 1 to 5 clusters.
 
 ### Model - Explanation of Algorithm
