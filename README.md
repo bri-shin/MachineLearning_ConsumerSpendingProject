@@ -21,7 +21,7 @@ For supervised learning, we experimented with both binary and multi-class SVM us
 
 <b>Unsupervised Learning</b> 
 
-For unsupervised learning, we experi- mented with k-means clustering over 1 to 5 clusters.
+For unsupervised learning, we experimented with k-means clustering over 1 to 5 clusters.
 
 ### Model - Explanation of Algorithm
 
