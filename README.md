@@ -25,16 +25,19 @@ For unsupervised learning, we experimented with k-means clustering over 1 to 5 c
 
 ### Model - Explanation of Algorithm
 
-<b>Supervised Learning – Determining Number of In- come Group Division</b>
+<b>Supervised Learning – Determining Number of Income Group Division</b>
+
 We repeated the following process over various divisions of income groups to see which resulted in the most generalizable model. We performed a grid search over various kernels and regularization parameters to obtain the optimal svm configuration.
 With the optimal svm configuration attained, we then checked the accuracy of the model on our test set.
 A model with high training and test precision and accuracy, indicated that the data could be separated correctly into our predefined groups.
 
 <b>Supervised Learning – Analyzing Weights of the Linear SVM</b>
+
 We performed a grid search over regularization constants from 1-100 to determine the optimal binary linear svm that could be fitted to our data. Since we standardized our data, we analyzed the weights of the features. The highest positive weights indicated which features were most correlated to the higher income earners while the most negative weights indicated the features most correlated to
 lower income earners.
 
 <b>Unsupervised Learning – KMeans</b>
+
 We first ran k-means clustering over 1..5 clusters and graphed the distortion to determine the best number of clusters to split the data
 (Elbow Method for K-Means).
 We also performed k-means clustering over k=1..5 clusters and
